@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "影歌的杂货铺"
+  text: ""
+  tagline: 尚未佩妥剑,转眼便江湖。愿历尽千帆,归来仍少年。
   actions:
     - theme: brand
       text: Markdown Examples
