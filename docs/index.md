@@ -8,11 +8,11 @@ hero:
   tagline: 尚未佩妥剑,转眼便江湖。愿历尽千帆,归来仍少年。
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: JS
+      link: /FE-knowledge-base/JavaScript
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: CSS
+      link: /FE-knowledge-base/CSS
 
 features:
   - title: Feature A
