@@ -1,21 +1,35 @@
-## JavaScript
+# 
 
-### 基本数据类型
+## 基本数据类型
 
 基础数据类型 Number String Null Undefined  Boolean Symbol Bigint 
 
 引用数据类型 Object 
 
-NaN 是
+NaN 是怎么来的， 摘选MDN文档
+- 失败的数字转换（例如，显式转换，如 parseInt("blabla")、Number(undefined)，或隐式转换，如 Math.abs(undefined)）
+- 计算结果不是实数的数学运算（例如，Math.sqrt(-1)）
+- 不定式（例如，0 * Infinity、1 ** Infinity、Infinity / Infinity、Infinity - Infinity）
+- 一个操作数被强制转换为 NaN 的方法或表达式（例如，7 ** NaN、7 * "blabla"）——这意味着 NaN 具有传染性
+- 将无效值表示为数字的其他情况（例如，无效的 Date new Date("blabla").getTime()、"".charCodeAt(1)）
 
-
-#### NaN 怎么判断， NaN 是什么东西
 
 #### 相关面试题 为什么0.1 + 0.2 !== 0.3 
+原因是因为 十进制转成成二进制造成的精度丢失的问题。
 
-原因是因为
+解决方法：先转换成整数，然后转成成小数　　(0.1* 10 + 0.2*10) / 10 
 
-### 数组
+#### 类型判断方法有哪些
+
+typeof 不能判断null, 不能判断Object
+
+instanceof 用于检测构造函数的 prototype 属性是否出现在某个实例对象的原型链上
+
+Object.prototype.toString.call()
+
+constructor 不能判断 undefined 和 null 
+
+## 数组
 
 数组常用方法
 
@@ -24,7 +38,6 @@ slice
 splice
 pop
 unshift
-
 
 forEach
 map
@@ -38,10 +51,11 @@ join
 
 
 
-#### 对象和数组之间的转换
+#### JSON和数组之间的转换
+
 
 #### 字符串怎么转成对象
-
+JSON.parse()
 
 ### for循环相关问题有什么？
 
