@@ -15,11 +15,13 @@ hero:
       link: /FE-knowledge-base/CSS
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+
+
+  - title: 诗画代码
+    details: 代码的万里行，键盘上成诗情画意。谁敲击键盘前，编辑岁月剪影。你飞扬的代码，创造出一片平坦无障的广阔。在技术巅峰，你打开IDE，向我轻轻Hellow，用代码向我招手。
+  - title: 艺术家
+    details: 你是TM的富二代，他是TM的官二代，而我是艺术家，先自己欺骗下自己。
+ 
 ---
 
