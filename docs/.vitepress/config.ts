@@ -18,6 +18,8 @@ export default defineConfig({
         text: "⭐有用的网站",
         items: [
           { text: "⭐ 学习网站", link: "/funning-websites/study" },
+          { text: "⭐ 大佬博客", link: "/funning-websites/dalao" },
+          { text: "⭐ 官方文档", link: "/funning-websites/docs" },
           { text: "⭐ 效果不错的网站", link: "/funning-websites/good" },
         ],
       },
@@ -34,8 +36,10 @@ export default defineConfig({
         {
           text: "前端知识整理",
           items: [
-            { text: "JS", link: "/FE-knowledge-base/JavaScript" },
-            { text: "css", link: "/FE-knowledge-base/CSS" },
+            { text: "JavaScript", link: "/FE-knowledge-base/JavaScript" },
+            { text: "CSS", link: "/FE-knowledge-base/CSS" },
+            { text: "Vue", link: "/FE-knowledge-base/Vue" },
+            { text: "Npm", link: "/FE-knowledge-base/Npm" },
           ],
         },
       ],
