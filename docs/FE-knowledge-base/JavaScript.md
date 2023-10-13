@@ -40,7 +40,9 @@ constructor 不能判断 undefined 和 null   d.constructor == Number
 执行时确定，
 
 apply
-
+···
+你好啊
+···
 call
 
 bind
@@ -68,6 +70,19 @@ Array.splice
 
 Object.assign()
 
+
+### 各种空值判断和类型转换系列
+空对象的判断
+
+空数组的判断
+
+undefind的判断
+
+null的判断
+
+object转数组
+
+数组转object
 
 #### 数组转字符串
 Array.join()
@@ -158,6 +173,12 @@ https://juejin.cn/post/6844903746984476686#heading-8 好好再看一下。
 #### 关于异步的几种方法？　
 
 Promise 
+
+Async
+Awite
+
+
+
 
 
 

@@ -22,7 +22,7 @@
 
 [sisterAn/JavaScript-Algorithms: 基础理论+JS 框架应用+实践，从 0 到 1 构建整个前端算法体系](https://github.com/sisterAn/JavaScript-Algorithms)
 
-[| Java 全栈知识体系](https://www.pdai.tech/)
+[Java 全栈知识体系](https://www.pdai.tech/)
 
 
 [阿里云培训中心](https://edu.aliyun.com/course/312293/lesson/109)
