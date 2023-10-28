@@ -43,6 +43,14 @@ export default defineConfig({
           ],
         },
       ],
+      "FE-test": [
+        {
+          text: "前端面试题",
+          items: [
+            { text: "JavaScript", link: "/FE-test/JavaScript" },
+          ],
+        },
+      ],
       "FE-development-resources": [
         {
           text: "前端开发资源",

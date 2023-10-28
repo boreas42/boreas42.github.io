@@ -179,7 +179,21 @@ Awite
 
 
 
-
+···
+    let len = 0,
+      preText = '';
+    // 节流处理
+    this.getIncodeReciveInfo = throttle(500, function (history, text) {
+      if (len !== history.len && preText !== text) {
+        len = history.len;
+        preText = text;
+        getIncodeReciveInfo({ reciveInfo: text.split(' ') }).then(res => {
+          if (res.code !== 200) return;
+          this.editor2.setContent(res.data.text);
+        });
+      }
+    });
+···
 
 
 
